@@ -38,7 +38,7 @@ public class Homework26 {
           if (x < 0 && y == 0) {
             System.out.println("Цель находится на оси х!");}
 
-        //     5
+        //    5
         int a = 10;
         int b = 1;
         int c = 15;
