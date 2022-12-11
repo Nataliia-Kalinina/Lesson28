@@ -17,8 +17,8 @@ public class Homework26 {
         }
 
         //     4
-        int x = 0;
-        int y = -5;
+        int x = 46;
+        int y = 0;
           if (x > 0 && y > 0) {
             System.out.println("Цель находится в I четверти!");}
           if (x < 0 && y > 0) {
@@ -29,19 +29,26 @@ public class Homework26 {
             System.out.println("Цель находится в III четверти!");}
           if (x > 0 && y < 0) {
             System.out.println("Цель находится в IV четверти!");}
-
-
-          if (x = 0 && y > 0) {
+          if (x == 0 && y > 0) {
+            System.out.println("Цель находится на оси y!");}
+          if (x == 0 && y < 0) {
+            System.out.println("Цель находится на оси y!");}
+          if (x > 0 && y == 0) {
+            System.out.println("Цель находится на оси х!");}
+          if (x < 0 && y == 0) {
             System.out.println("Цель находится на оси х!");}
 
-          if (x = 0 && y < 0) {
-            System.out.println("Цель находится на оси х!");}
+        //     5
+        int a = 10;
+        int b = 1;
+        int c = 15;
+        if (a+b>c && b+c>a && a+c>b) {
+            System.out.println("Треугольник возможно посторить");}
+           else {
+            System.out.println("Треугольник посторить невозможно");}
 
 
-            /* switch (x && y);
-            case  (x < 0 && y>0);
-                System.out.println("Цель находится в II четверти!!");
-                break; }   */
+
 
 
 
